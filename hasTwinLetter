@@ -1,0 +1,10 @@
+function hasTwinLetter(word) {
+   var split1 = word.split("")
+  var uniq = [...new Set(split1)];
+  
+  if (split1.length == uniq.length){
+    return false;
+  }
+  return true;
+ 
+}
